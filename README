@@ -1,0 +1,69 @@
+RAPPORT 
+==========
+
+Semaine du 18 janvier
+======================
+Prise en connaissance du sujet et des différents outils à utiliser pour l'élaboration de celui-ci
+
+Semaine du 25 janvier
+======================
+Configuration du depot git.
+objectif: se documenter sur la librairie libxml2, git
+
+Semaine du 1er février
+======================
+manipulation des différents outils vu la semaine précèdente
+objectif: commencer à penser la structure du programme
+
+Semaine du 8 fevrier
+======================
+réflexion sur la struture du programme
+objectif: chaque membre du groupe doit coder sa version du parser avec la structure defini ensemble.
+ 
+Semaine du 15 fevrier
+======================
+codage du parser avec la méthode DOM et stockage dans une hashmap des informations.
+objectif: se familiariser avec SDL
+
+Semaine du 22 fevrier
+======================
+rencontre des difficultés avec la méthode DOM sur des fichiers volumineux.
+correction: utilisation de la methode SAX pour traiter ces fichiers volumineux.
+problème: Superposition des textures avec SDL
+objectif: Implementer la méthode SAX
+
+Semaine du 1 mars
+======================
+Documentation sur SAX et test sans ajout dans hashmap.
+Abondon de l'idée de superposition de texture avec SDL
+objectif : dessiner des polygons avec SDL
+
+Semaine du 7 mars
+======================
+Implementation complete de SAX.
+objectif : liaison des hasmaps crée par le parser avec les méthodes de dessin.
+
+Semaine du 14 mars
+======================
+probleme dans la liaison, un element de la hashmap sempble manquer.
+objectif : réglé le probleme dans le parser
+
+Semaine du 21 mars
+======================
+correction du probleme dans le parse et ajout de nouvelles hashmap pour way en separation des nodes.
+objectif : afficher tout les elements des hashmaps
+
+Semaine du 28 mars
+======================
+Affichage des hashmaps realisé mais probleme d'ordre dans le dessin.
+objectif : correction du probleme
+
+Semaine du 4 avril au 18
+======================
+Création de deux hashmaps une pour les background l'autre pour le foreground
+ajout de divers attribut pour les ways (epaisseur, nom, ...)
+objectif : documentation pour les extensions de SVG et Feuille de style.
+
+Semaine du 18 avril au 25
+======================
+Ajout des extensions.
